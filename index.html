@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>chess</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        <h1 id="heading">Chess</h1>
+        <h2 style="text-align: center; text-decoration: underline; color: red;">Guidelines to play</h2>
+        <ul>
+
+                <li>1. To remove the pieces double click on the piece</li>
+                <li>2. To move a piece just drag and drop </li>
+                <li>3. Player already knows the Chess game</li>
+        </ul>
+        <div id="allBoxes">
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692781-200.png" alt="" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b1">1
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/1110017-200.png" alt="" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b2">2
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/722246-200.png" alt="" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b3">3
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692789-200.png" alt="" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b4">4
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/722244-200.png" alt="" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b5">5
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/722246-200.png" alt="" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b6">6
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/1110017-200.png" alt="" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b7">7
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692781-200.png" alt="" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b8">8
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692778-200.png" alt="ok" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b9">9
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692778-200.png" alt="ok" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b10">10
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692778-200.png" alt="ok" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b11">11
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692778-200.png" alt="ok" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b12">12
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692778-200.png" alt="ok" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b13">13
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692778-200.png" alt="ok" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b14">14
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692778-200.png" alt="ok" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b15">15
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692778-200.png" alt="ok" class="blackPieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="b16">16
+                </div>
+
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">17</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">18</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">19</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">20</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">21</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">22</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">23</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">24</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">25</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">26</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">27</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">28</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">29</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">30</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">31</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">32</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">33</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">34</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">35</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">36</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">37</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">38</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">39</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">40</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">41</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">42</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">43</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">44</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">45</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">46</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">47</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)">48</div>
+
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692777-200.png" alt="ok" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w1">49
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692777-200.png" alt="ok" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w2">50
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692777-200.png" alt="ok" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w3">51
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692777-200.png" alt="ok" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w4">52
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692777-200.png" alt="ok" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w5">53
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692777-200.png" alt="ok" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w6">54
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692777-200.png" alt="ok" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w7">55
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"><img
+                                src="https://static.thenounproject.com/png/692777-200.png" alt="ok" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w8">56
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"> <img
+                                src="https://static.thenounproject.com/png/692782-200.png" alt="" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w9"> 57
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"> <img
+                                src="https://static.thenounproject.com/png/1110016-200.png" alt="" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w10">
+                        58</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"> <img
+                                src="https://static.thenounproject.com/png/692783-200.png" alt="" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w11"> 59
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"> <img
+                                src="https://static.thenounproject.com/png/692790-200.png" alt="" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w12"> 60
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"> <img
+                                src="https://static.thenounproject.com/png/722240-200.png" alt="" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w13"> 61
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"> <img
+                                src="https://static.thenounproject.com/png/692783-200.png" alt="" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w14"> 62
+                </div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"> <img
+                                src="https://static.thenounproject.com/png/1110016-200.png" alt="" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w15">
+                        63</div>
+                <div class="box" ondrop="drop(event)" ondragover="allowDrop(event)"> <img
+                                src="https://static.thenounproject.com/png/692782-200.png" alt="" class="whitePieces"
+                                ondragstart="dragStart(event)" ondrag="dragging(event)" id="w16"> 64
+                </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
